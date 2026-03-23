@@ -8,7 +8,7 @@ import time
 
 # -------- CONFIG --------
 DRY_RUN = True   # Set to False to actually send emails
-DELAY_SECONDS = 6  # Delay between emails to avoid rate limits
+DELAY_SECONDS = 0  # Delay between emails to avoid rate limits
 
 EMAIL_ADDRESS = os.environ.get("EMAIL_ADDRESS")
 EMAIL_PASSWORD = os.environ.get("EMAIL_PASSWORD")
