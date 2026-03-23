@@ -13,7 +13,7 @@ DELAY_SECONDS = 6  # Delay between emails to avoid rate limits
 EMAIL_ADDRESS = os.environ.get("EMAIL_ADDRESS")
 EMAIL_PASSWORD = os.environ.get("EMAIL_PASSWORD")
 
-RESUME_LINK = "https://drive.google.com/file/d/1lQOO2qa5_uwmPrXQpChEXbzLLBckYNRJ/view?usp=drive_link"
+RESUME_LINK = "https://drive.google.com/file/d/1so5DJaGKkhgdnHHqQH8w6qjqET3HfMLo/view?usp=sharing"
 
 SUBJECT = "Backend Engineer - Exploring Opportunities"
 
@@ -31,21 +31,24 @@ def send_email(to_email, recruiter_name):
 
     body = f"""Hi {recruiter_name},
 
-I hope you're doing well! My name is Dhruv Parmar, and I'm currently a Software Engineer at Jio, specializing in backend development.
+I hope you're doing well!
 
-I have 2+ years of experience working on backend systems, where I've led API migrations, improved performance, and ensured maintainability without compromising functionality.
+My name is Riya Kesaria, and I am currently working as a Software Engineer at Jio Platforms, specializing in backend development.
 
-I'm interested in applying for SDE-1 roles at your organization and would love to connect to explore potential opportunities.
+I have 2+ years of experience building scalable backend systems using Java and Spring Boot. In my current role, I’ve worked on microservices handling 20K+ active users, designed and optimized REST APIs, improved performance, and implemented secure authentication mechanisms.
+
+I’m currently exploring Backend / SDE-1 opportunities and would love to connect regarding relevant roles at your organization.
 
 You can view my resume here:
 {RESUME_LINK}
 
-Please let me know if you'd be open to a quick chat.
+I’d be happy to have a quick chat if there’s a potential fit.
 
 Best regards,  
-Dhruv Parmar  
-+91-8169409129  
-https://linkedin.com/in/dhruvv173/
+Riya Kesaria  
++91-7309509080  
+https://www.linkedin.com/in/riya-kesaria/  
+https://github.com/kriyaaa
 """
 
     msg = EmailMessage()
