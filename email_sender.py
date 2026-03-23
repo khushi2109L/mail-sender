@@ -7,7 +7,7 @@ import time
 # load_dotenv()
 
 # -------- CONFIG --------
-DRY_RUN = False   # Set to False to actually send emails
+DRY_RUN = True   # Set to False to actually send emails
 DELAY_SECONDS = 6  # Delay between emails to avoid rate limits
 
 EMAIL_ADDRESS = os.environ.get("EMAIL_ADDRESS")
