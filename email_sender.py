@@ -13,7 +13,7 @@ DELAY_SECONDS = 6  # Delay between emails to avoid rate limits
 EMAIL_ADDRESS = os.environ.get("EMAIL_ADDRESS")
 EMAIL_PASSWORD = os.environ.get("EMAIL_PASSWORD")
 
-RESUME_LINK = "https://drive.google.com/file/d/1so5DJaGKkhgdnHHqQH8w6qjqET3HfMLo/view?usp=sharing"
+RESUME_LINK = "https://drive.google.com/file/d/1dYZZdwBXEOYBHB_QaFLGjE2zknlkoV2n/view?usp=drivesdk"
 
 SUBJECT = "Backend Engineer - Exploring Opportunities"
 
