@@ -15,7 +15,7 @@ EMAIL_PASSWORD = os.environ.get("EMAIL_PASSWORD")
 
 RESUME_LINK = "https://drive.google.com/file/d/1dYZZdwBXEOYBHB_QaFLGjE2zknlkoV2n/view?usp=drivesdk"
 
-SUBJECT = "Backend Engineer - Exploring Opportunities"
+SUBJECT = "Seeking Career Opportunities for SDE 1 role"
 
 
 # -------- HELPER FUNCTION --------
