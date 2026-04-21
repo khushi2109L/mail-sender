@@ -13,9 +13,9 @@ DELAY_SECONDS = 6  # Delay between emails to avoid rate limits
 EMAIL_ADDRESS = os.environ.get("EMAIL_ADDRESS")
 EMAIL_PASSWORD = os.environ.get("EMAIL_PASSWORD")
 
-RESUME_LINK = "https://drive.google.com/file/d/1dYZZdwBXEOYBHB_QaFLGjE2zknlkoV2n/view?usp=drivesdk"
+RESUME_LINK = "https://drive.google.com/file/d/1GXsBwwCUo8LzAHQ7ID52CPmZT5N8Mnp6/view?usp=drivesdk"
 
-SUBJECT = "Seeking Career Opportunities for SDE 1 role"
+SUBJECT = "Seeking Career Opportunities for Data Analyst role"
 
 
 # -------- HELPER FUNCTION --------
@@ -33,11 +33,13 @@ def send_email(to_email, recruiter_name):
 
 I hope you're doing well!
 
-My name is Riya Kesaria, and I am currently working as a Software Engineer at Jio Platforms, specializing in backend development.
+My name is Shreya Srivastava, and I am currently working as a Data Analyst at Jio Platforms.
 
-I have 2+ years of experience building scalable backend systems using Java and Spring Boot. In my current role, I’ve worked on microservices handling 20K+ active users, designed and optimized REST APIs, improved performance, and implemented secure authentication mechanisms.
+I have 2+ years of experience working with large-scale user data, analyzing 3M+ daily users and 2M+ survey responses to derive actionable insights. In my current role, I have defined KPIs across multiple product modules, built dashboards for 300K+ daily users, and improved response relevance by 25% through data-driven analysis and visualization.
 
-I’m currently exploring Backend / SDE-1 opportunities and would love to connect regarding relevant roles at your organization.
+My skill set includes SQL, Python, Power BI, Excel, and data visualization tools like Matplotlib, Apache Superset and Databricks. I have also worked on projects involving customer behavior analysis and market insights, helping drive data-backed decisions.
+
+I am currently exploring Data Analyst opportunities and would love to connect regarding relevant roles at your organization.
 
 You can view my resume here:
 {RESUME_LINK}
@@ -45,10 +47,10 @@ You can view my resume here:
 I’d be happy to have a quick chat if there’s a potential fit.
 
 Best regards,  
-Riya Kesaria  
-+91-7309509080  
-https://www.linkedin.com/in/riya-kesaria/  
-https://github.com/kriyaaa
+Shreya Srivastava  
++91-7021829256  
+https://www.linkedin.com/in/shreyaa2109/
+https://github.com/khushi2109L
 """
 
     msg = EmailMessage()
