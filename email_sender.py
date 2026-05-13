@@ -13,7 +13,7 @@ DELAY_SECONDS = 6  # Delay between emails to avoid rate limits
 EMAIL_ADDRESS = os.environ.get("EMAIL_ADDRESS")
 EMAIL_PASSWORD = os.environ.get("EMAIL_PASSWORD")
 
-RESUME_LINK = "https://drive.google.com/file/d/1GXsBwwCUo8LzAHQ7ID52CPmZT5N8Mnp6/view?usp=drivesdk"
+RESUME_LINK = "https://drive.google.com/file/d/1GXsBwwCUo8LzAHQ7ID52CPmZT5N8Mnp6/view"
 
 SUBJECT = "Seeking Career Opportunities for Data Analyst role"
 
